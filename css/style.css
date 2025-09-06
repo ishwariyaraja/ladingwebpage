@@ -72,7 +72,7 @@ nav{
 }
 .hed{
     width: 700px;
-    margin-top:40px auto ;
+    /* margin-top:40px auto ; */
     display: flex;
     flex-direction: column;
     justify-content: center;
