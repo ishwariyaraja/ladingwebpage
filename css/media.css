@@ -43,6 +43,9 @@ ul{
     top: 20px;
     right: 20px;
  }
+ .icon{
+    display: none;
+ }
 .showmenu{
     display: block;
     cursor: pointer;
