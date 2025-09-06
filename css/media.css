@@ -43,7 +43,7 @@ ul{
     top: 20px;
     right: 20px;
  }
- .icon{
+ .icon i{ 
     display: none;
  }
 .showmenu{
