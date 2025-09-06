@@ -13,24 +13,28 @@ nav{
     display: flex;
     align-items: center;
     flex-direction: column;
+     padding: 20px ;
+
 }
 nav li{
     display: block;
      padding: 10px 0;
+    
 }
 ul{
     text-align:center;
     display: none;
      padding: 0px;
      margin-top:10px;
+      /* z-index: 1; */
 }
 .logo{
-   align-self: self-start;
-    margin: 10px 0 0 30px;
+    align-self: self-start;
+
 }
 .logo a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     color: #FFFFFF;
  }
   ul li{
@@ -46,9 +50,15 @@ ul{
  .icon i{ 
     display: none;
  }
+ span{
+    display: none;
+ }
 .showmenu{
+    width: 100%;
+    background: transparent;
     display: block;
     cursor: pointer;
+    background-color: black;
 }
 } 
 
