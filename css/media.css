@@ -100,12 +100,17 @@ input::placeholder{
     justify-content: space-evenly;
     gap: 10px;
 }
+/* container-3 */
+.selling-contain{
+    background-color: #F7F7F7;
+    margin-top:20px;
+    padding: 50px;
+}
 .card{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap:30px;
-    margin-right: 100px;
 }
 .selhed  h1{
     padding: 20px;
