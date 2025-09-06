@@ -105,19 +105,13 @@ input::placeholder{
     flex-direction: column;
     justify-content: space-around;
     gap:30px;
-    margin-right:0 auto;
-    /* padding: 100px; */
-    /* margin:100px auto ; */
+    margin-right: 100px;
 }
 .selhed  h1{
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-wrap: nowrap;
     justify-content:center;
-}
-.addcard{
-    width: 270px;
-    height: auto;
 }
 } 
 
