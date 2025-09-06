@@ -119,3 +119,10 @@ input::placeholder{
 
 
 /* container-2 */
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 100px 50px;
+}
