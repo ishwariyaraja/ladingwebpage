@@ -74,15 +74,14 @@ nav{
  margin-top: 100px;
 }
 .hed{
-    width: 700px;
-    /* margin-top:40px auto ; */
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .hed h1{
-    font-size: 60px;
+    font-size: 70px;
     color: #FFFFFF;
     text-wrap: wrap;
     text-align: center;
@@ -118,3 +117,5 @@ input::placeholder{
     background-color: orange;
 } */
 
+
+/* container-2 */

@@ -61,12 +61,12 @@ ul{
     background-color: rgba(0, 0, 0, 0.429) transparent;
 }
 
-/* 1 */
+/* container-1 */
 .head-section{
   margin-top: 100px;
 }
 .hed{
-    width: 500px;
+    width: 600px;
 }
 .hed h1{
     font-size: 40px;
