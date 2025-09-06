@@ -60,6 +60,7 @@ ul{
     margin-top: 80px;
     background-color: rgba(0, 0, 0, 0.429) transparent;
 }
+
 /* 1 */
 .head-section{
   margin-top: 100px;
@@ -69,15 +70,28 @@ ul{
 }
 .hed h1{
     font-size: 40px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-wrap: wrap;
     text-align: center;
 }
 .para{
    width: 300px;
-   margin-top:30px;
+   margin-top:20px;
    line-height: 1.5;
 }
-
+.para p{
+    color: #e4dadadf;
+    text-wrap: wrap; 
+    font-size:20px;
+    text-align: center;
+}
+input{
+    width: 240px;
+    background:#040404af;
+}
+input::placeholder{
+    color: #ffffffa9;
+    font-size: 15px;
+}
 } 
 
