@@ -195,14 +195,15 @@ input::placeholder{
 }
 .addcard{
     width: 270px;
+    height: auto;
 }
 .addpic{
    background-color:rgba(238, 238, 238, 0.584);
 } 
-.addpic img{
+/* .addpic img{
     width: 100%;
     height: auto;
-} 
+}  */
 .card-desrib{
     background-color: #FFFFFF;
     text-align:start;

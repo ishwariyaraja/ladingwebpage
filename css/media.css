@@ -113,5 +113,9 @@ input::placeholder{
     flex-wrap: nowrap;
     justify-content:center;
 }
+.addcard{
+    width: 270px;
+    height: auto;
+}
 } 
 
