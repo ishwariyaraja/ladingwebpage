@@ -14,11 +14,24 @@ nav{
     align-items: center;
     flex-direction: column;
 }
+nav li{
+    display: block;
+     padding: 10px 0;
+}
+ul{
+    text-align:center;
+    display: none;
+     padding: 0px;
+     margin-top:10px;
+}
+.logo{
+   align-self: self-start;
+    margin: 10px 0 0 30px;
+}
 .logo a{
     text-decoration: none;
     font-size: 20px;
     color: #FFFFFF;
-    align-self: self-start;
  }
   ul li{
     display:block;
@@ -30,7 +43,9 @@ nav{
     top: 20px;
     right: 20px;
  }
- 
-
+.showmenu{
+    display: block;
+    cursor: pointer;
+}
 } 
 
