@@ -126,3 +126,32 @@ input::placeholder{
     gap: 40px;
     padding: 100px 50px;
 }
+.menu1{
+    padding: 15px;
+}
+.hdiv h1{
+    font-size:30px;
+    font-weight: 600;
+    text-wrap:wrap;
+    padding: 10px;
+}
+.menu1 h2,p{
+    padding: 10px;
+}
+.menu1 p{
+    font-size: 16px;
+    color:#38363697 ;
+}
+.arow {
+   display: flex;
+   flex-direction: row; 
+}
+.arow a{
+    padding: 10px; 
+    text-decoration: none;
+    color: orange;
+    font-size: 15px;
+}
+
+
+
