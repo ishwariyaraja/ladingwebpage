@@ -339,7 +339,6 @@ input::placeholder{
 .testmonial-card{
     display: flex;
     flex-direction: row; 
-       
 }
 .test-card{
     width: 300px;
