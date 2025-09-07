@@ -312,6 +312,41 @@ input::placeholder{
     background-color: #fff;
 }
 .sofa-contenct{
-    padding: 20px;
-    
+    padding: 20px;    
+}
+/*  6*/
+.six-container{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    background-color: #fff;
+
+}  
+.testmonial{
+    text-align: center;
+} 
+.testmonial p{
+    color: orange;
+    font-size: 20px;
+    padding: 10px;
+}
+.testmonial h2{
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.testmonial-card{
+    display: flex;
+    flex-direction: row; 
+       
+}
+.test-card{
+    width: 300px;
+    height: auto;
+    margin: 0px auto;
+}
+.test-card img{
+   width: 100%;
+   height: auto;
 }
