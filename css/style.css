@@ -184,7 +184,6 @@ input::placeholder{
 .inbox P .chair{
     background-color: #fff;
     border-radius: 30px;
-    /* padding: 10px; */
 }
 .card{
     display: flex;
