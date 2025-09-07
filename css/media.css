@@ -138,9 +138,9 @@ input::placeholder{
     background-color: #f7f7f731;
 }
 .sofaimg{
-    width: 400px;
-    height: auto;
-    padding: 50px;
+    width: 300px;
+    height: 300px;
+    /* padding: 50px; */
 
 }
 .sofaimg img{
