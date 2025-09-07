@@ -105,13 +105,19 @@ input::placeholder{
     margin-top:20px;
 }
 .addcard{
-    width: 270px;
+    width: 200px;
     height: auto;
 }
+.addcard img{
+    width: 100%;
+    height: auto;
+}
+
 .card{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-right:50px;
     gap:30px;
 }
 .selhed  h1{
