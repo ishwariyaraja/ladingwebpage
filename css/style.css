@@ -349,3 +349,50 @@ input::placeholder{
    width: 100%;
    height: auto;
 }
+/* imgdiv */
+
+.test{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.span_one{
+    text-align: center;
+    text-wrap: wrap;
+    padding: 20px;
+    background-color:#fff;
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.3);
+     border-radius: 15px;
+    transform: translateY(-250px);
+    margin: 50px;
+}
+ .span_one{
+/* HTML: <div class="rounded-edge"></div> */
+
+  height: 200px;
+  aspect-ratio: 3/2;
+  /* update the 85% to control the curvature
+     you can also update the 50% to control the position
+  */
+  clip-path: ellipse(85% 100% at 50% 0);
+  background: #fff;
+}
+.span_one:hover{
+    transform: translateY(20px);
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+.review h1{
+    color: orange;
+    font-size: 15px;
+}
+.review h3{
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.review_review p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}

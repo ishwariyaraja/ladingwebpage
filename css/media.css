@@ -173,6 +173,21 @@ input::placeholder{
     height: auto;
     margin: 0px auto;
 }
-
+/*  */
+.test{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.span_one{
+    text-align: center;
+    text-wrap: wrap;
+    padding: 20px;
+    background-color:#fff transparent;
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.3);
+     border-radius: 15px;
+    transform: translateY(-100px);
+    margin: 50px;
+}
 } 
 
