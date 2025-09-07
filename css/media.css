@@ -139,8 +139,8 @@ input::placeholder{
 }
 .sofaimg{
     width: 300px;
-    height: 300px;
-    /* padding: 50px; */
+    height: 400px;
+    padding: 50px;
 
 }
 .sofaimg img{
