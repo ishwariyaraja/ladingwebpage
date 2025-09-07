@@ -309,6 +309,7 @@ input::placeholder{
     display: flex;
     flex-direction: row;
     margin-top: 200px;
+    background-color: #fff;
 }
 .sofa-contenct{
     padding: 20px;
