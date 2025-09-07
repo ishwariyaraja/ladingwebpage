@@ -140,7 +140,7 @@ input::placeholder{
 .sofaimg{
     width: 300px;
     height: auto;
-    text-align: center;
+    padding: 50px;
 
 }
 .sofaimg img{
@@ -156,6 +156,7 @@ input::placeholder{
 .five-conectone{
     width: 300px;
     height: auto;
+    padding: 50px;
 }
 .five-conectone img{
     width: 100%;
