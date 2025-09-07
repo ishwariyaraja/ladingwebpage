@@ -104,6 +104,13 @@ input::placeholder{
     background-color: #F7F7F7;
     margin-top:20px;
 }
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:30px;
+    /* padding:100px 25px 25px 50px; */
+}
 .addcard{
     width: 200px;
     height: auto;
@@ -128,6 +135,9 @@ input::placeholder{
     background-color: #FFFFFF;
     text-align:center;
     padding:10px;
+}
+.veiw{
+   padding: 10px;
 }
 /* 4 */
 .container-four{
