@@ -138,9 +138,9 @@ input::placeholder{
     background-color: #f7f7f731;
 }
 .sofaimg{
-    width: 300px;
+    width: 400px;
     height: auto;
-    padding: 50px;
+    /* padding: 50px; */
 
 }
 .sofaimg img{
@@ -156,7 +156,7 @@ input::placeholder{
 .five-conectone{
     width: 300px;
     height: auto;
-    padding: 50px;
+    /* padding: 50px; */
 }
 .five-conectone img{
     width: 100%;
