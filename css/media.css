@@ -140,7 +140,7 @@ input::placeholder{
 .sofaimg{
     width: 400px;
     height: auto;
-    /* padding: 50px; */
+    padding: 50px;
 
 }
 .sofaimg img{
