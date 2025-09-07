@@ -117,7 +117,7 @@ input::placeholder{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-right:40px;
+    margin-right:50px;
     gap:30px;
 }
 .selhed  h1{
