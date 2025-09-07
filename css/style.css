@@ -208,7 +208,22 @@ input::placeholder{
 }
 .addpic{
    background-color:rgba(238, 238, 238, 0.584);
-} 
+   } 
+.addpic img{
+   position: relative;
+   animation: bounce 1s infinite ease-in-out;
+}
+@keyframes bounce{
+    0%,100%{
+      transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+}
+
+
+
 /* .addpic img{
     width: 100%;
     height: auto;
@@ -248,8 +263,8 @@ input::placeholder{
    display: flex;
    flex-direction: row; 
    justify-content: center;
-   padding: 100px;
-   background-color: #fff;
+   padding: 50px;
+   /* background-color: #fff; */
 }
 .veiw a{
     text-decoration: none;
@@ -320,7 +335,6 @@ input::placeholder{
     flex-direction: column;
     gap: 70px;
     background-color: #fff;
-
 }  
 .testmonial{
     text-align: center;
@@ -363,7 +377,7 @@ input::placeholder{
     background-color:#fff;
     box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.3);
      border-radius: 15px;
-    transform: translateY(-250px);
+    /* transform: translateY(-250px); */
     margin: 50px;
 }
  .span_one{
@@ -377,11 +391,11 @@ input::placeholder{
   clip-path: ellipse(85% 100% at 50% 0);
   background: #fff;
 }
-.span_one:hover{
+/* .span_one:hover{
     transform: translateY(20px);
     transition: 0.2s ease;
     cursor: pointer;
-  }
+  } */
 .review h1{
     color: orange;
     font-size: 15px;
@@ -395,4 +409,41 @@ input::placeholder{
     display: flex;
     flex-wrap: wrap;
     font-size: 15px;
+}
+/* footer  */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1d1d13;
+    padding: 50px;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.para1{
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+.para1 h1{
+    color: black;
+}
+.para1 h2{
+    margin-bottom: 15px;
+    color: orange;
+}
+.footer p{
+    text-wrap: wrap;
+    font-size: 16px;
+    max-width: 500px;
+    padding: 10px;
+}
+.para1 ul{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    /* padding: 10px; */
 }
