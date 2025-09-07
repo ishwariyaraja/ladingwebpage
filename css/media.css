@@ -97,14 +97,16 @@ input::placeholder{
 .menu-container{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
     gap: 10px;
 }
 /* container-3 */
 .selling-contain{
     background-color: #F7F7F7;
     margin-top:20px;
-    /* padding: 50px; */
+}
+.addcard{
+    width: 270px;
+    height: auto;
 }
 .card{
     display: flex;
@@ -116,8 +118,6 @@ input::placeholder{
     padding: 20px;
     display: flex;
     flex-wrap: nowrap;
-    /* margin-left: ; */
-    /* justify-content:center; */
 }
 } 
 

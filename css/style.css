@@ -193,10 +193,10 @@ input::placeholder{
     gap:30px;
     padding: 100px;
 }
-/* .addcard{
+.addcard{
     width: 270px;
     height: auto;
-} */
+}
 .addpic{
    background-color:rgba(238, 238, 238, 0.584);
 } 
