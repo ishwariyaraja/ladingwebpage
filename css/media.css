@@ -117,13 +117,19 @@ input::placeholder{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-right:80px;
+    margin:80px;
     gap:30px;
 }
 .selhed  h1{
     /* padding: 20px; */
     display: flex;
     margin:10px;
+}
+.card-desrib{
+    background-color: #FFFFFF;
+    text-align:center;
+    padding:10px;
+   
 }
 } 
 
