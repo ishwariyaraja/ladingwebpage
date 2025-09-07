@@ -117,13 +117,14 @@ input::placeholder{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-right:50px;
+    margin-right:100px;
     gap:30px;
 }
 .selhed  h1{
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
     flex-wrap: nowrap;
+    margin: 10px;
 }
 } 
 
