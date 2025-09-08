@@ -375,7 +375,7 @@ input::placeholder{
     flex-direction: row; 
 }
 .test-card{
-    width: 200px;
+    width: 300px;
     height: auto;
     margin: 0px auto;
     /* position: relative; */
