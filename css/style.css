@@ -57,7 +57,7 @@ nav{
     padding-top: 20px;
 
  }
- span{
+.count{
     position: absolute;
     text-align: center;
     border-radius: 30px;
@@ -174,11 +174,11 @@ input::placeholder{
     background-color: #F7F7F7;
     margin-top:30px;
 }
-.selhed  h1{
+/* .selhed  h1{
     padding: 30px;
     display: flex;
     justify-content:center;
-}
+} */
 .inbox P{
      text-align: center;
      background-color:#EEEEEE ;
@@ -479,4 +479,86 @@ footer{
     flex-direction: column;
     gap: 30px;
     /* padding: 10px; */
+}
+/* animation */
+.test-run{
+    width: 24ch;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* margin: 100px auto; */
+    border-right: 3px solid #0f0;
+    animation: typing 7s steps(24) infinite alternate,blink-cursor 0.5s step-end infinite, blink-text 4s linear infinite;
+
+}
+@keyframes typing {
+    from{
+
+        width: 0;
+    } 
+    to{
+        width: 24ch;
+    } 
+}
+@keyframes blink-cursor {
+    0%,50%{
+        border-color: transparent;
+        /* color: #0f0; */
+    }  
+  100%{
+    border-color: #0f0;
+  }    
+}
+@keyframes blink-text{
+    0%{
+        color: red;
+    }
+    25%{
+        color: gold;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: blue;
+    }
+    100%{
+        color: #ff4dff;
+    }
+}
+/* animation 2 */
+.selhed{
+    text-align: center !important;
+}
+.text{
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    color: #444;
+    overflow: hidden;
+    margin-top:50px ;
+}
+.text::before{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: orange;
+    height: 100%;
+    width: 100%;
+    clip-path: circle(0 at 50% 100%);
+    animation: fill 3s infinite alternate ease-in-out;
+
+}
+
+@keyframes fill{
+    0%{
+    clip-path: circle(0 at 50% 100%);
+    }
+    100%{
+    clip-path: circle(150% at 50% 100%);
+    }
 }

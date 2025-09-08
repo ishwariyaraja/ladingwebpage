@@ -51,9 +51,9 @@ ul{
  .icon i{ 
     display: none;
  }
- span{
+ /* span{
     display: none;
- }
+ } */
 .showmenu{
     display: block;
     cursor: pointer;
@@ -184,7 +184,7 @@ input::placeholder{
     gap:30px ;
 }
 .test-card{
-    width: 250px;
+    width: 200px;
     height: auto;
     margin: 0px auto;
 }
