@@ -375,10 +375,10 @@ input::placeholder{
     flex-direction: row; 
 }
 .test-card{
-    width: 250px;
+    width: 200px;
     height: auto;
     margin: 0px auto;
-    position: relative;
+    /* position: relative; */
     border-radius: 25px;
 }
 .test-card img{
