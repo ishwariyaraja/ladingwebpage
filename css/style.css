@@ -422,7 +422,7 @@ input::placeholder{
  .span_one{
 /* HTML: <div class="rounded-edge"></div> */
 
-  height: 250px;
+  height: 200px;
   aspect-ratio: 3/2;
   /* update the 85% to control the curvature
      you can also update the 50% to control the position
