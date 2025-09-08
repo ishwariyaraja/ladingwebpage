@@ -26,7 +26,7 @@ ul{
      display: none;
      padding: 0px;
      margin-top:10px;
-      z-index: 1;
+      /* z-index: 1; */
 }
 .logo{
     align-self: self-start;
@@ -59,6 +59,10 @@ ul{
     cursor: pointer;
     margin-top: 80px;
     background-color: rgba(0, 0, 0, 0.429) transparent;
+}
+
+.test-run{
+   font-size: 20px;
 }
 
 /* container-1 */
@@ -180,7 +184,7 @@ input::placeholder{
 }
 .testmonial-card{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     gap:30px ;
 }
 .test-card{
@@ -188,7 +192,7 @@ input::placeholder{
     height: auto;
     margin: 0px auto;
 }
-.test-card{
+.test-card img{
     width: 100%;
     height: auto;
 }
