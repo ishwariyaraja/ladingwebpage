@@ -180,7 +180,7 @@ input::placeholder{
 .testmonial-card{
     display: flex;
     flex-direction: column;
-    /* gap:10px ; */
+    gap:10px ;
 }
 .test-card{
     width: 200px;
