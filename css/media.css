@@ -186,8 +186,12 @@ input::placeholder{
     width: 200px;
     height: auto;
     margin: 0px auto;
-    padding-bottom:15px ;
+
 }
+.test-card img{
+   padding-bottom: 15px;
+}
+
 /*  */
 .test{
     display: flex;
