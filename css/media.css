@@ -25,12 +25,11 @@ ul{
     text-align:center;
      display: none;
      padding: 0px;
-     margin-top:10px;
+     margin-top:5px;
       /* z-index: 1; */
 }
 .logo{
     align-self: self-start;
-
 }
 .logo a{
     text-decoration: none;
@@ -49,6 +48,9 @@ ul{
     font-size: 25px;
  }
  .icon i{ 
+    display: none;
+ }
+ .count{
     display: none;
  }
  /* span{
