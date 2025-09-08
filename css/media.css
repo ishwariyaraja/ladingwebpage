@@ -59,14 +59,12 @@ ul{
 .showmenu{
     display: block;
     cursor: pointer;
-    margin-top: 80px;
-    background-color: rgba(0, 0, 0, 0.429) transparent;
+    /* margin-top: 80px; */
+    /* background-color: rgba(0, 0, 0, 0.429) transparent; */
 }
-
 .test-run{
    font-size: 20px;
 }
-
 /* container-1 */
 .head-section{
   margin-top: 100px;
