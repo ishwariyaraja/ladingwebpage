@@ -175,15 +175,14 @@ input::placeholder{
 /* 6 */
 .six-container{
     margin-top: 40px;    
-
 }
 .testmonial-card{
     display: flex;
     flex-direction: column;
-    gap:10px ;
+    gap:30px ;
 }
 .test-card{
-    width: 200px;
+    width: 250px;
     height: auto;
     margin: 0px auto;
 }
