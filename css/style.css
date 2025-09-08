@@ -224,10 +224,10 @@ input::placeholder{
         transform: translateY(-30px);
     }
 }
-/* .addpic img{
+ .addpic img{
     width: 100%;
     height: auto;
-}  */
+}  
 .card-desrib{
     background-color: #FFFFFF;
     text-align:start;
@@ -352,7 +352,6 @@ input::placeholder{
     50%{
         transform: translateX(30px) ;
     }
-
 } */
  .six-container{
  }
@@ -423,7 +422,7 @@ input::placeholder{
  .span_one{
 /* HTML: <div class="rounded-edge"></div> */
 
-  height: 200px;
+  height: 250px;
   aspect-ratio: 3/2;
   /* update the 85% to control the curvature
      you can also update the 50% to control the position
