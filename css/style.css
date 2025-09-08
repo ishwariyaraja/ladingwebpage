@@ -232,7 +232,7 @@ input::placeholder{
     background-color: #FFFFFF;
     text-align:start;
     padding:10px;
-    border-radius: 0 0 20px 20px;
+    /* border-radius: 0 0 20px 20px; */
     box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.3);
 }
 .price-add p{
@@ -242,7 +242,6 @@ input::placeholder{
 }
 .price-add h2{
     color: rgb(9, 1, 23);
-
 }
 .price-count {
     padding: 20px;
