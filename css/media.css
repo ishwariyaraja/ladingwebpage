@@ -5,11 +5,11 @@ header{
     background-repeat: no-repeat;
     /* background-position: bottom; */
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 nav{
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -18,27 +18,24 @@ nav{
 }
 nav li{
     display: block;
-     padding: 10px 0;
-    
+     padding: 5px 0;   
 }
 ul{
     text-align:center;
      display: none;
      padding: 0px;
-     margin-top:5px;
-      /* z-index: 1; */
+    /* z-index: 1; */
 }
 .logo{
-    align-self: self-start;
+    align-self:self-start;
 }
 .logo a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     color: #25f128;
  }
   ul li{
     display:block;
-    padding: 10px;
  }
   .bars{
     display: block;
@@ -53,21 +50,17 @@ ul{
  .count{
     display: none;
  }
- /* span{
-    display: none;
- } */
 .showmenu{
     display: block;
     cursor: pointer;
-    margin-top: 50px;
-    /* background-color: rgba(0, 0, 0, 0.429) transparent; */
+    padding: 20px;
 }
 .test-run{
    font-size: 20px;
 }
 /* container-1 */
 .head-section{
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .hed{
     width: 600px;
@@ -168,9 +161,13 @@ input::placeholder{
     flex-direction: column;
     margin-top: 50px;
 }
+.five-conecttwoimg{
+    margin: 0 35px 0 40px;
+}
 .five-conectone{
     width: 300px;
     height: auto;
+    margin: 0px 35px 0 40px;
     /* padding: 50px; */
 }
 .five-conectone img{
@@ -227,15 +224,12 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: #eeeeee00;
-    gap:30px;
 }
-.para1 ul{
-    display:flex;
+.para1 ul {
+    display: flex;
     flex-direction: column;
-    /* gap: 10px; */
+    gap: 10px;
     /* padding: 10px; */
 }
-
-
 } 
 
