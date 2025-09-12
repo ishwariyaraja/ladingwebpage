@@ -227,7 +227,7 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: #eeeeee00;
-    /* gap:30px; */
+    gap:30px;
 }
 .para1 ul{
     display:flex;
