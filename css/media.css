@@ -235,6 +235,10 @@ footer{
     /* gap: 10px; */
     /* padding: 10px; */
 }
+.contain{
+    display: flex;
+    flex-direction: row;
+}
 
 } 
 

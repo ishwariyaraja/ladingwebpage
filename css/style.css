@@ -330,8 +330,23 @@ input::placeholder{
 .five-conectone{
     margin-top: 50px;
 }
+.five-conectone img{
+    border-radius: 20px 0 0px 20px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.05), 0 0 50px rgba(0, 0, 0, 0.8);
+}
+.five-conectone img:hover{
+   box-shadow: none;  
+}
 .sofa-contenct{
     padding: 20px;    
+}
+.five-conecttwo img{
+ box-shadow:inset 0 0 20px rgba(255, 255, 255, 0.05), 0 0 50px rgba(0, 0, 0, 0.8);
+
+}
+.five-conecttwoimg img:hover{
+    transform: scale(1.1);
+    transition: .5s ease;
 }
 /*  6*/
 .six-container{
@@ -378,16 +393,21 @@ input::placeholder{
     margin: 0px auto;
     /* position: relative; */
     border-radius: 25px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.05), 0 0 50px rgba(0, 0, 0, 0.8);
+
 }
 .test-card img{
    width: 100%;
    height: auto;
-   transform: translateY(0px);
-   transition: 1S ease-in-out;
+   /* transform: translateY(0px);
+   transition: 1S ease-in-out; */
 } 
 .test-card img:hover{
-   transform: translateY(-30px);
-   transition: 1s ease-in-out;
+   /* transform: translateY(-30px);
+   transition: 1s ease-in-out; */
+    transform: scale(1.1);
+    /* transform: skew(10deg); */
+    transition: .5s ease-in-out;
 } 
 
 /* imgdiv */
@@ -399,6 +419,7 @@ input::placeholder{
 }
 .span_one{
     text-align: center;
+    
     text-wrap: wrap;
     padding: 20px;
     background-color:#fff;
